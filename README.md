@@ -128,5 +128,5 @@ npm run build   # сборка в dist/
 ```
 
 ## 🚢 Деплой
-Каждый push в `main` запускает GitHub Actions: тесты → сборка → публикация на Pages.
-Однократная настройка: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+Каждый push в `main` запускает GitHub Actions: тесты → сборка → публикация в ветку `gh-pages`.
+Workflow публикует сборку в ветку `gh-pages`. Если Pages не включился автоматически: **Settings → Pages → Source: Deploy from a branch → `gh-pages` / (root)**.

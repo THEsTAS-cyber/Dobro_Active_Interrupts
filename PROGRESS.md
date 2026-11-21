@@ -59,7 +59,7 @@
 - **Статус:** ✅
 
 ### [21.11.2026] — Каркас проекта и деплой
-- **Что сделано:** Vite + React, HashRouter, `base: '/Dobro_Active_Interrupts/'`, семантический макет со skip-link, GitHub Actions (тесты → сборка → Pages).
+- **Что сделано:** Vite + React, HashRouter, `base: '/Dobro_Active_Interrupts/'`, семантический макет со skip-link, GitHub Actions (тесты → сборка → ветка `gh-pages`).
 - **Файлы изменены:** `package.json`, `vite.config.js`, `index.html`, `.github/workflows/deploy.yml`, `src/App.jsx`, `src/components/Layout.jsx`, `src/styles/global.css`
 - **Принятые решения:** HashRouter (ADR-2), без серверной БД (ADR-1), без внешних шрифтов и CDN.
 - **Статус:** ✅
